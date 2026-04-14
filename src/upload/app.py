@@ -42,7 +42,6 @@ def handler(event, context):
             Params={
                 "Bucket": BUCKET,
                 "Key": s3_key,
-                "ContentType": content_type,
             },
             ExpiresIn=300,
         )
